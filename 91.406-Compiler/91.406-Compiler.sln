@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "91.406-Compiler", "91.406-Compiler.vcxproj", "{AED52C00-1E0F-453A-A44C-0BDEC79018B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CB4E6CC2-25B2-44FE-B563-E8EED903F426}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extras", "extras", "{BD5CFC73-5AE0-4CCC-B41B-DFA94A444DCC}"
+	ProjectSection(SolutionItems) = preProject
+		..\Tests\extras\fib.p = ..\Tests\extras\fib.p
+		..\Tests\extras\infinite.p = ..\Tests\extras\infinite.p
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tac1", "tac1", "{2EF53878-6F72-4819-96CE-ECB490936AA5}"
+	ProjectSection(SolutionItems) = preProject
+		..\Tests\tac1\p1.p = ..\Tests\tac1\p1.p
+		..\Tests\tac1\p10.p = ..\Tests\tac1\p10.p
+		..\Tests\tac1\p11.p = ..\Tests\tac1\p11.p
+		..\Tests\tac1\p12.p = ..\Tests\tac1\p12.p
+		..\Tests\tac1\p2.p = ..\Tests\tac1\p2.p
+		..\Tests\tac1\p3.p = ..\Tests\tac1\p3.p
+		..\Tests\tac1\p4.p = ..\Tests\tac1\p4.p
+		..\Tests\tac1\p5.p = ..\Tests\tac1\p5.p
+		..\Tests\tac1\p6.p = ..\Tests\tac1\p6.p
+		..\Tests\tac1\p7.p = ..\Tests\tac1\p7.p
+		..\Tests\tac1\p8.p = ..\Tests\tac1\p8.p
+		..\Tests\tac1\p9.p = ..\Tests\tac1\p9.p
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "parser1", "parser1", "{F0ABA734-AB87-4B3A-9839-97957F55E4CC}"
+	ProjectSection(SolutionItems) = preProject
+		..\Tests\parser1\p1.p = ..\Tests\parser1\p1.p
+		..\Tests\parser1\p2.p = ..\Tests\parser1\p2.p
+		..\Tests\parser1\p3.p = ..\Tests\parser1\p3.p
+		..\Tests\parser1\p4.p = ..\Tests\parser1\p4.p
+		..\Tests\parser1\p4fix.p = ..\Tests\parser1\p4fix.p
+		..\Tests\parser1\p5.p = ..\Tests\parser1\p5.p
+		..\Tests\parser1\p6.p = ..\Tests\parser1\p6.p
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "symbol1", "symbol1", "{6C0AF28A-83EB-4AA3-AEB1-27C893BBCB07}"
+	ProjectSection(SolutionItems) = preProject
+		..\Tests\symbol1\p1.p = ..\Tests\symbol1\p1.p
+		..\Tests\symbol1\p2.p = ..\Tests\symbol1\p2.p
+		..\Tests\symbol1\p3.p = ..\Tests\symbol1\p3.p
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "final1", "final1", "{50E5E296-89A0-4AB4-8541-D2ED75ADA171}"
+	ProjectSection(SolutionItems) = preProject
+		..\Tests\final1\p10.p = ..\Tests\final1\p10.p
+		..\Tests\final1\p11.p = ..\Tests\final1\p11.p
+		..\Tests\final1\p3.p = ..\Tests\final1\p3.p
+		..\Tests\final1\p7.p = ..\Tests\final1\p7.p
+		..\Tests\final1\p9.p = ..\Tests\final1\p9.p
+		..\Tests\final1\p9t.p = ..\Tests\final1\p9t.p
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AED52C00-1E0F-453A-A44C-0BDEC79018B2}.Debug|x64.ActiveCfg = Debug|x64
+		{AED52C00-1E0F-453A-A44C-0BDEC79018B2}.Debug|x64.Build.0 = Debug|x64
+		{AED52C00-1E0F-453A-A44C-0BDEC79018B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{AED52C00-1E0F-453A-A44C-0BDEC79018B2}.Debug|x86.Build.0 = Debug|Win32
+		{AED52C00-1E0F-453A-A44C-0BDEC79018B2}.Release|x64.ActiveCfg = Release|x64
+		{AED52C00-1E0F-453A-A44C-0BDEC79018B2}.Release|x64.Build.0 = Release|x64
+		{AED52C00-1E0F-453A-A44C-0BDEC79018B2}.Release|x86.ActiveCfg = Release|Win32
+		{AED52C00-1E0F-453A-A44C-0BDEC79018B2}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD5CFC73-5AE0-4CCC-B41B-DFA94A444DCC} = {CB4E6CC2-25B2-44FE-B563-E8EED903F426}
+		{2EF53878-6F72-4819-96CE-ECB490936AA5} = {CB4E6CC2-25B2-44FE-B563-E8EED903F426}
+		{F0ABA734-AB87-4B3A-9839-97957F55E4CC} = {CB4E6CC2-25B2-44FE-B563-E8EED903F426}
+		{6C0AF28A-83EB-4AA3-AEB1-27C893BBCB07} = {CB4E6CC2-25B2-44FE-B563-E8EED903F426}
+		{50E5E296-89A0-4AB4-8541-D2ED75ADA171} = {CB4E6CC2-25B2-44FE-B563-E8EED903F426}
+	EndGlobalSection
+EndGlobal
