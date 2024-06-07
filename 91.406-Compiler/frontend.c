@@ -6,6 +6,7 @@
 #include "stack.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 //Globals
 int temp_count = 0;
@@ -27,7 +28,7 @@ SymbolTable *top_symboltable()
   if (stack_is_empty(symbolStack) == TRUE)
     {
       die ("SymbolTable stack is empty");
-      return;
+      return NULL;
     }
   
   return symbol_stack_peek(symbolStack);

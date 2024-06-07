@@ -1,0 +1,5 @@
+#Build outputs
+*.o
+*.s
+main
+

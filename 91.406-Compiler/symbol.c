@@ -2,6 +2,7 @@
 #include "main.h"
 #include <stdio.h>
 #include "type.h"
+#include "utilities.h"
 
 Symbol *make_symbol(void)
 {

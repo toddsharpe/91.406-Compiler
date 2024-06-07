@@ -4,6 +4,7 @@
 #include "main.h"
 #include "symbol.h"
 #include "codegen.h"
+#include "utilities.h"
 
 void name_registers(RegDesc *registers)
 {

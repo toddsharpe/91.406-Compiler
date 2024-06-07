@@ -25,7 +25,7 @@ void dump_expressions(Expression *start)
   Expression *current = start;
   while (current != NULL)
     {
-      printf("Current %d Next %d Result %s Tac %d\n", current, current->next, current->result->name, current->tac);
+      printf("Current %p Next %p Result %s Tac %p\n", current, current->next, current->result->name, current->tac);
 
       current = current->next;
     }

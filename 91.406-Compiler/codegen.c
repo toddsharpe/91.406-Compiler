@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "symbol.h"
+#include "string.h"
 
 Symbol *current_scope;
 extern Symbol *symbol_one;

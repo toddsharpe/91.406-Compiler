@@ -169,14 +169,14 @@ void tac_dump(Tac *tac)
 
   while (current != NULL)
     {
-      printf("Current %d Op: %d ", current, current->op);
+      printf("Current %p Op: %d ", current, current->op);
 
       //if (current->op == TAC_CALL)
       //	printf("Location: %d Return: %s\n", current->location, symbol_to_string(current->condition));
       if ((current->op == TAC_GOTO) || (current->op == TAC_IFZ) || (current->op == TAC_IFNZ))
-	printf("Location: %d Condition: %s\n", current->location, symbol_to_string(current->condition));
+	printf("Location: %p Condition: %s\n", current->location, symbol_to_string(current->condition));
       else
-	printf("Result: %s (%d) Operand1: %s Operand2: %s\n", symbol_to_string(current->result), current->result, symbol_to_string(current->operand1), symbol_to_string(current->operand2));
+	printf("Result: %s (%p) Operand1: %s Operand2: %s\n", symbol_to_string(current->result), current->result, symbol_to_string(current->operand1), symbol_to_string(current->operand2));
 
       if (reverse)
 	current = current->prev;

@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include "symboltable.h"
 #include "utilities.h"
+#include "string.h"
 
 //Externals
 extern int hash(char *text);
@@ -119,7 +120,7 @@ void symboltable_dump(SymbolTable *table)
       while (item != NULL)
 	{
 	  //Print this item
-	  printf("Current: %d Next: %d Hash %d Symbol %s Offset %d ", item, item->next,  i, item->name, item->offset);
+	  printf("Current: %p Next: %p Hash %d Symbol %s Offset %d ", item, item->next,  i, item->name, item->offset);
 
 	  if (item == item->next)
 	    die("Infinite loop");
